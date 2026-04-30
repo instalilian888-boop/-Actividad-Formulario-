@@ -1,0 +1,87 @@
+/* 🌟 Fondo de la página completo y centrado */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0eef8; /* Color pastel lila suave */
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+.demo-form-card{
+  background: #ffffff;
+  border-radius: 24px; /* Bordes más redondos */
+  padding: 30px 35px;
+  box-shadow: 0 10px 30px rgba(186, 178, 212, 0.2); /* Sombra suave */
+  width: 100%;
+  max-width: 400px; /* Ancho máximo bonito */
+}
+
+h3 {
+  color: #6d5d99; /* Morado pastel */
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+p {
+  text-align: center;
+  color: #888;
+  margin-bottom: 25px;
+}
+
+form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+label{
+  font-weight: 500;
+  color: #6d5d99; /* Morado pastel */
+  font-size: 0.95rem;
+}
+
+input{
+  padding:14px;
+  border: 2px solid #e6e3f5; /* Borde lila muy claro */
+  border-radius: 14px;
+  font-size:1rem;
+  background: #fcfbff;
+  transition: all 0.3s ease;
+}
+
+input:focus{
+  outline:none;
+  border-color: #b7b0e8; /* Azul pastel */
+  background: white;
+}
+
+button{
+  margin-top:15px;
+  border:none;
+  padding:15px;
+  border-radius:14px;
+  background: #f8c8dc; /* Rosa pastel */
+  color: #7a4a61;
+  font-weight: bold;
+  cursor:pointer;
+  font-size: 1rem;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+button:hover{
+  background: #f5b8cf; /* Rosa un poquito más fuerte */
+  transform: translateY(-2px);
+}
+
+.resultado{
+  margin-top: 20px;
+  background: #f8f4ff; /* Lila muy clarito */
+  border-radius: 16px;
+  padding: 20px;
+  color: #6d5d99;
+  border: 2px solid #e6e3f5;
+  text-align: center;
+}
